@@ -1,0 +1,23 @@
+.red-box
+{
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    border: 3px solid black;
+    margin: 100px;
+
+    position: relative;
+}
+
+.black-box
+{
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+    border: 3px solid green;
+    margin: 50px;
+
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
