@@ -1,23 +1,271 @@
-.red-box
+body
 {
-    width: 500px;
-    height: 500px;
-    background-color: blue;
-    border: 3px solid black;
-    margin: 100px;
-
-    position: relative;
+  margin: 0;
+  background-color: black;
 }
 
-.black-box
+.container
 {
-    width: 50px;
-    height: 50px;
-    background-color: yellow;
-    border: 5px solid darkmagenta;
-    margin: 50px;
+  background-color: white;
+  width: 1670px;
+  margin: 0 auto;
+}
 
-    position: absolute;
-    left: 10px;
-    top: 10px;
+.navbar
+{
+  background-color: black;
+  text-align: center;
+  height: 80px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links
+{
+}
+
+.navbar .links a
+{
+  font-family: "Josefin Sans";
+  margin: 0px 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.content-wrapper
+{
+  display: flex;
+}
+
+/* ____________LEFT BAR____________ */
+
+.left-bar
+{
+}
+
+.img-header-wrapper
+{
+  width: 670px;
+  height: 885px;
+  
+  background-image: url("https://i.pinimg.com/originals/95/86/6f/95866f30ed38ba4ef64c0e2e49154165.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.header-wrapper
+{
+  width: 200px;
+  position: relative;
+  left: 10px;
+  top: 310px;
+}
+
+h1
+{
+  font-family: "Abril Fatface";
+  font-size: 50px;
+  letter-spacing: -1px;
+  font-weight: normal;
+  color: #2c3e50;
+}
+
+#h1-first
+{
+  margin: 0px;
+  line-height: 0.9;
+  margin-bottom: 20px;
+}
+
+#h1-second
+{
+  margin: 0px;
+  font-size: 61px;
+  line-height: 1;
+}
+
+blockquote
+{
+  height: 885px;
+  width: 670px;
+  margin: 100px 0;
+  background-color: #444;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  position: relative;
+  
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote::before
+{
+  font-family: "Abril Fatface";
+  content: open-quote;
+  font-size: 300px;
+  font-weight: normal;
+  position: absolute;
+  left: 0;
+  top: -80px;
+  color: white;
+}
+
+blockquote::after
+{
+  visibility: hidden;
+  content: close-quote;
+  font-size: 0px;
+}
+
+.quote
+{
+  width: 350px;
+  font-family: "Abril Fatface";
+  color: white;
+  font-size: 90px;
+}
+
+.quote1
+{
+  height: 750px;
+}
+
+.quote1-text
+{
+  width: 350px;
+  position: relative;
+  left: -60px;
+}
+
+.quote2
+{
+  height: 770px;
+  margin-top: 650px;
+}
+
+.quote2-text
+{
+  width: 450px;
+  position: relative;
+  left: -10px;
+}
+
+.quote3
+{
+  height: 1270px;
+  margin-top: 450px;
+  margin-bottom: 0;
+}
+
+.quote3-text
+{
+  width: 400px;
+  position: relative;
+  left: -40px;
+  margin-top: 150px;
+}
+
+/*_______________ RIGHT BAR___________________ */
+
+.right-bar
+{
+  background-color: white;
+  width: 1000px;
+}
+
+p
+{
+  font-family: "Josefin Sans";
+  color: #444;
+  font-size: 30px;
+  
+  line-height: 1.6;
+}
+
+strong
+{
+  color: black;
+}
+
+ul
+{
+  font-family: "Josefin Sans";
+  color: #444;
+  list-style: square;
+  
+  margin-left: 30px;
+  
+  font-size: 30px;
+  line-height: 1.6;
+}
+
+.intro-wrapper
+{
+  width: 900px;
+  margin: 50px;;
+}
+
+.intro
+{
+  font-size: 40px;
+}
+
+.notable-achievements
+{
+  width: 900px;
+  margin: 50px;
+  margin-top: 400px;
+}
+
+h2
+{
+  font-family: "Josefin Sans";
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+  margin-bottom: 100px;
+}
+
+.high-light
+{
+  color: black;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.experience
+{
+  width: 900px;
+  margin: 50px;;
+  margin-top: 150px;
+}
+
+.places
+{
+  font-family: "Josefin Sans";
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 1.6;
+}
+
+.subtitles
+{
+  font-family: "Merriweather";
+  font-weight: bold;
+  font-style: italic;
+  font-size: 30px;
+  line-height: 1.6;
+}
+
+.formal-training
+{
+  width: 900px;
+  margin: 50px;;
+  margin-top: 200px;
 }
